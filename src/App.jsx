@@ -7,26 +7,16 @@ import Welcome from "./Comp/Views/HomePage/Welcome";
 import "./Comp/Views/HomePage/css/styles.css";
 import "./App.css";
 
-
 function App() {
-
-	return (
-        <BrowserRouter>
-        {/* <Navbar /> */}
-        <Switch>
-
-            <Route exact path="/">
-                <Welcome />
-            </Route>
-
-            {/* <Route exact path="/contact">
-                <ContactMe/>
-            </Route> */}
-
-        </Switch>
+  return (
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/">
+          <Welcome />
+        </Route>
+      </Switch>
     </BrowserRouter>
-
-	);
+  );
 }
 
 export default App;
