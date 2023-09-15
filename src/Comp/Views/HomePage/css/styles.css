@@ -24,14 +24,15 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #2f4f4f;                        /*original: --bs-primary: #bd5d38;  */
-  --bs-secondary: #6c757d;
+  --bs-secondary: black;
   --bs-success: #198754;
   --bs-info: #bd5d38;                           /*original: --bs-info: #0dcaf0; */
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 47, 79, 79;                  /*original: --bs-primary-rgb: 189, 93, 56; */
+  --bs-main-bg-color: #f9d4b8;
+  --bs-primary-rgb: 25,135,84;                  /*original: --bs-primary-rgb: 189, 93, 56; */
   --bs-secondary-rgb: 108, 117, 125; 
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 189, 93, 56;                    /*original: --bs-info-rgb: 13, 202, 240;  */
@@ -11282,6 +11283,10 @@ textarea.form-control-lg {
 body {
   padding-top: 3.375rem;
   color: #6c757d;
+  /* background-color: white; */
+  background-color: var(--bs-main-bg-color) !important;
+  /* background-color: red; */
+  /* background-color: white; */
 }
 
 @media (min-width: 992px) {
@@ -11318,6 +11323,14 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
+}
+
+.reg-text{
+  color: var(--bs-secondary);
+}
+
+.bg-body{
+  background-color: var(--bs-main-bg-color) !important;
 }
 
 #sideNav {
