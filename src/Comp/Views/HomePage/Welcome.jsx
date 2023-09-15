@@ -296,7 +296,7 @@ const Welcome = () => {
                   <div className="col-md-8">
                     <div className="card-body">
                       <h4 className="card-title">MineClone - MineCraft Clone</h4>
-                      <p className="card-text reg-text">
+                      <p className="card-text reg-text m-0">
                         First attempt at clonning a large scale Game. MineClone (a clone of MineCraft) is a sandbox game
                         where one can explore a seed generated world that is built from the ground up. A player will
                         then be able to intereact with the world complete and bring to life there one blocky creations.
@@ -304,6 +304,9 @@ const Welcome = () => {
                         generation and basic user controls. the main obstacle is increase the size and depth of the
                         generated world while reducing load times, player lag, and world rerenders. I am close to being
                         done so a link will be added soon. Definetly my largest personal project.
+                      </p>
+                      <p className="m-0 p-0">
+                        --Link Coming Soon--
                       </p>
                       <div className="flex-shrink-0">
                         <span className="date">current project</span>
@@ -341,6 +344,11 @@ const Welcome = () => {
                         stacks blocks to for a tower as high as one can. If the block is not perfectly aligned it will
                         be choped. Game ends when the block is too small to be choped.
                       </p>
+                      <a href="https://ghk-blockstackgame.netlify.app" target="_blank" rel="noreferrer">
+                        <button className="bg-primary ms-3 border-0 rounded-pill text-light ps-3 pe-3">
+                          <u>Want To Play?</u>
+                        </button>
+                      </a>
                       <div className="flex-shrink-0">
                         <span className="date">December 2021</span>
                       </div>
@@ -375,9 +383,12 @@ const Welcome = () => {
                   <div className="col-md-8">
                     <div className="card-body">
                       <h4 className="card-title">Connect 4x4 Multi-Player Web Game</h4>
-                      <p className="card-text reg-text">
+                      <p className="card-text reg-text m-0">
                         Just like the original the goal is to connect 4 chips in a row diagnoally vertically or
                         horizontally but 2 added twists are a secound of the grid and 2 more players.
+                      </p>
+                      <p className="m-0 p-0">
+                        --Link Not Avaible: Due to Service Changes with heroku backend--
                       </p>
                       <div className="flex-shrink-0">
                         <span className="date">December 2021</span>
@@ -412,47 +423,14 @@ const Welcome = () => {
                   <div className="col-md-8">
                     <div className="card-body">
                       <h4 className="card-title">Form Filler Helper</h4>
-                      <p className="card-text reg-text">
-                        Many jobs have a tidious portion where you fill out a form so that information can be logged.
+                      <p className="card-text reg-text m-0">{
+                        `Many jobs have a tidious portion where you fill out a form so that information can be logged.
                         For a friend of mine this meant 20+ forms every day. I was asked if it was possible to stream
                         line the proccess and just fill out the form based on rows in a spread sheet. Thus I made this
-                        form filler to aid in her day to day.
+                        form filler to aid in her day to day.`}
                       </p>
-                      <div className="flex-shrink-0">
-                        <span className="date">September 2021</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div className="flex-grow-1">
-                  <ul className="reg-text">
-                    <li>Implemented a CSV template generator to ensure consistent input.</li>
-                    <li>Validated error catching to handel unexpected data.</li>
-                    <li>Used Selenium to navigate logins and manipulate google forms.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Form Filler Helper block */}
-            <div className="card bg-body p-2 border border-0">
-              <div className="card bg-body mb-3 border border-0" style={{ maxWidth: "750px" }}>
-                <div className="row g-0">
-                  <div className="col-md-4">
-                    <img src={ghklogo} className="img-fluid rounded-start" alt="..." />
-                  </div>
-
-                  <div className="col-md-8">
-                    <div className="card-body">
-                      <h4 className="card-title">Form Filler Helper</h4>
-                      <p className="card-text reg-text">
-                        Many jobs have a tidious portion where you fill out a form so that information can be logged.
-                        For a friend of mine this meant 20+ forms every day. I was asked if it was possible to stream
-                        line the proccess and just fill out the form based on rows in a spread sheet. Thus I made this
-                        form filler to aid in her day to day.
+                      <p className="m-0 p-0">
+                        --Link Not POssible--
                       </p>
                       <div className="flex-shrink-0">
                         <span className="date">September 2021</span>
@@ -501,7 +479,7 @@ const Welcome = () => {
         <section className="resume-section" id="skills">
           <div className="resume-section-content">
             <h2 className="mb-5">Skills</h2>
-            <div className="subheading mb-3">Programming Languages & Tools</div>
+            <div className="reg-text subheading mb-3">Programming Languages & Tools</div>
 
             {/* <ul className="list-inline dev-icons">
               <li className="list-inline-item">
@@ -527,7 +505,7 @@ const Welcome = () => {
               </li>
             </ul> */}
 
-            <ul>
+            <ul className="reg-text">
               <li>C++</li>
               <li>MySQL</li>
               <li>CSS</li>
@@ -555,7 +533,7 @@ const Welcome = () => {
         <section className="resume-section" id="interests">
           <div className="resume-section-content">
             <h2 className="mb-5">Interests</h2>
-            <p> Chess, Gaming, Rubik’s Puzzles, Hiking, Scenic Biking, Automating for ease of life, Many Board games</p>
+            <p className="reg-text"> Chess, Gaming, Rubik’s Puzzles, Hiking, Scenic Biking, Automating for ease of life, Many Board games</p>
           </div>
         </section>
         <hr className="m-0" />
