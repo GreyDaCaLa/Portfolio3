@@ -191,7 +191,7 @@ const Welcome = () => {
                 </ul>
               </div>
               <div className="flex-shrink-0">
-                <span className="date">September 2022 – Present</span>
+                <span className="date">September 2022 – August 2023</span>
               </div>
             </div>
             {/* HT Hackney */}
